@@ -15,4 +15,43 @@
         android:text="Classroom Alloted:"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/teacherText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/teacherText1"
+        android:text="01"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/teacherText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/teacherText2"
+        android:text="Venue: Centre ABC"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/teacherText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/teacherText3"
+        android:text="Time: 9:30am-12:30pm"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/teachherList1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/teacherText4"
+        android:layout_marginTop="13dp" />
+
 </android.widget.RelativeLayout>
