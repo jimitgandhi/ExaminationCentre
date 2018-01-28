@@ -4,6 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
     tools:context="com.droids.user.examinationcentre.MainActivity">
 
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Login for Admin / Teacher / Students"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Enter User Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uid"
+        android:layout_below="@+id/uid"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/choicespinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pwd"
+        android:layout_below="@+id/pwd"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choicespinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Log In" />
 </android.widget.RelativeLayout>
